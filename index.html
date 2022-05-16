@@ -12,15 +12,19 @@
     <style>
       .thumb {
         margin: 8px;
-        flex-shrink: 1;
-        overflow: auto;
+       float: left;
+       flex-shrink: 1;
         overflow-x: auto;
-        overflow: hidden;
+        
       }
       .gallery {
-        display: flex;
+          display: inline-block;
+          display: flex
+          
       }
+      
       .thumb:hover {
+          overflow: scroll;
         cursor: all-scroll;
       }
     </style>
